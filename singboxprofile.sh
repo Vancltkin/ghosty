@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Добавка
+opkg update
+opkg install luci-base
+opkg install lua
+
 # Папки для LuCI
 mkdir -p /usr/lib/lua/luci/controller/singbox
 mkdir -p /usr/lib/lua/luci/model/cbi/singbox
