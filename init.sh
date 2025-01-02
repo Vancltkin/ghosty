@@ -9,8 +9,8 @@ opkg install sing-box -d ram
 mkdir -p /etc/sing-box
 
 # Открываем /etc/sing-box/config.json для редактирования или вставки конфигурации
-echo "Введите вашу конфигурацию для sing-box (или скопируйте сюда файл):"
-cat > /etc/sing-box/config.json
+echo "Введите вашу конфигурацию для sing-box (или скопируйте сюда файл /etc/sing-box/config.json):"
+#cat > /etc/sing-box/config.json
 
 # Замена содержимого /etc/rc.local
 cat > /etc/rc.local <<EOF
